@@ -20,3 +20,5 @@ endfunction
 
 let s:chad_top = resolve(expand('<sfile>:p:h:h'))
 call luaeval('require("chadtree")(...)', [s:chad_top])
+
+nnoremap <silent> <F1> :CHADopen<CR>

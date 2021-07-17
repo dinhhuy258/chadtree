@@ -90,13 +90,13 @@ options:
       - video
   page_increment: 5
   polling_rate: 2.0
-  session: true
+  session: false
   show_hidden: false
   version_control:
     enable: true
 theme:
   icon_glyph_set: devicons
-  text_colour_set: env
+  text_colour_set: nerdtree_syntax_light
   icon_colour_set: github
   highlights:
     ignored: Comment
